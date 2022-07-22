@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Cryptocurrency-Price-Tracking-App/precache-manifest.cdaf68f8a09567d49c3e1854b9e97a27.js"
+  "/Cryptocurrency-Price-Tracking-ReactApp/precache-manifest.dec5d6adeaab4855b5bc8d605abf2d3b.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Cryptocurrency-Price-Tracking-App/index.html", {
+workbox.routing.registerNavigationRoute("/Cryptocurrency-Price-Tracking-ReactApp/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
